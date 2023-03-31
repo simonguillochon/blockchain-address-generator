@@ -1,0 +1,13 @@
+{
+  "name": "blockchain-adress-generator",
+  "version": "0.0.1",
+  "scripts": {
+    "btc": "node bitcoin.js",
+    "eth": "node ethereum.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "coinkey": "^3.0.0",
+    "ethers": "^5.6.9"
+  }
+}
